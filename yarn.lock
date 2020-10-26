@@ -214,6 +214,13 @@
   resolved "https://registry.yarnpkg.com/@angular/forms/-/forms-9.1.9.tgz#20c9a79d1dcb2cace45df9e2f304b658e02c1687"
   integrity sha512-r675yImnb/0pY7K5W3V2ITa7YETu1I2AS+bRfII6UQ6gthyeFFOHb5noa7YneC2yqQiM6E4DQmF5ig3daPuFNg==
 
+"@angular/platform-browser-dynamic@8.2.14":
+  version "8.2.14"
+  resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-8.2.14.tgz#4439a79fe10ec45170e6940a28835e9ff0918950"
+  integrity sha512-mO2JPR5kLU/A3AQngy9+R/Q5gaF9csMStBQjwsCRI0wNtlItOIGL6+wTYpiTuh/ux+WVN1F2sLcEYU4Zf1ud9A==
+  dependencies:
+    tslib "^1.9.0"
+
 "@angular/platform-browser-dynamic@^9.1.0":
   version "9.1.9"
   resolved "https://registry.yarnpkg.com/@angular/platform-browser-dynamic/-/platform-browser-dynamic-9.1.9.tgz#12f8b05d3c9ef0844df88f3833e29ea1e49ec5e0"
@@ -28255,7 +28262,7 @@ redeyed@~1.0.0:
   dependencies:
     esprima "~3.0.0"
 
-reflect-metadata@^0.1.2:
+reflect-metadata@0.1.13, reflect-metadata@^0.1.2:
   version "0.1.13"
   resolved "https://registry.yarnpkg.com/reflect-metadata/-/reflect-metadata-0.1.13.tgz#67ae3ca57c972a2aa1642b10fe363fe32d49dc08"
   integrity sha512-Ts1Y/anZELhSsjMcU605fU9RE4Oi3p5ORujwbIKXfWa+0Zxs510Qrmrce5/Jowq3cHSZSJqBjypxmHarc+vEWg==
@@ -33368,7 +33375,24 @@ vue-docgen-api@^4.33.1:
     ts-map "^1.0.3"
     vue-inbrowser-compiler-utils "^4.33.0"
 
-vue-docgen-loader@^1.5.0:
+vue-docgen-api@^4.7.0:
+  version "4.33.4"
+  resolved "https://registry.yarnpkg.com/vue-docgen-api/-/vue-docgen-api-4.33.4.tgz#b76858e492f67673adb1c04ee33ea617b52936d1"
+  integrity sha512-2YAWMUhzFYPCOE9th+bc0l768eMp2gKjp0kuGbNVxxWL6F3bnw4eehDX15pDGgIqyzVavL7w5TA8dTkl59GY+Q==
+  dependencies:
+    "@babel/parser" "^7.6.0"
+    "@babel/types" "^7.6.0"
+    "@vue/compiler-dom" "^3.0.0-rc.6"
+    "@vue/compiler-sfc" "^3.0.0-rc.6"
+    ast-types "0.13.3"
+    hash-sum "^1.0.2"
+    lru-cache "^4.1.5"
+    pug "^3.0.0"
+    recast "0.19.1"
+    ts-map "^1.0.3"
+    vue-inbrowser-compiler-utils "^4.33.4"
+
+vue-docgen-loader@^1.4.0, vue-docgen-loader@^1.5.0:
   version "1.5.0"
   resolved "https://registry.yarnpkg.com/vue-docgen-loader/-/vue-docgen-loader-1.5.0.tgz#bf8797ea9dde87a8d734b56176f105477d9bf266"
   integrity sha512-LKZ8mxeIQ44uSUMTplnwOXbC4bO4E2vyZDTbn7/1QlVwJPEIjk3ahL0DA1m27IEw6YTlHOwtWS0PrHmDkFgyAg==
@@ -33387,6 +33411,13 @@ vue-inbrowser-compiler-utils@^4.33.0:
   version "4.33.0"
   resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-utils/-/vue-inbrowser-compiler-utils-4.33.0.tgz#3bb510a7931c62d076a035f71dc31a5329e4e015"
   integrity sha512-9VxLYc+J8o3Z1H6GpnPYD9J2lMcP4ahi1BoYTcRM6Yw0F/17Gbypog3yVCyh1VO4uDoIldi4b9ZF33zvR5KEvg==
+  dependencies:
+    camelcase "^5.3.1"
+
+vue-inbrowser-compiler-utils@^4.33.4:
+  version "4.33.4"
+  resolved "https://registry.yarnpkg.com/vue-inbrowser-compiler-utils/-/vue-inbrowser-compiler-utils-4.33.4.tgz#895d6053612d6b88a29e8c58d7284e44eebfbcf5"
+  integrity sha512-8/YvqKy0s7UUUdR8eHLwbuAEb3qs5SfM4Og21E9scKxAwfFBw20YJCLnXB/uEbYsGGpuMg/oY0P7lehfBhm1Tw==
   dependencies:
     camelcase "^5.3.1"
 
